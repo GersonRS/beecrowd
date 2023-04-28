@@ -27,7 +27,7 @@
 
 # Tabela de Conteúdo
 
-- [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
+- [Tabela de Conteúdo](#tabela-de-conteúdo)
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Como utilizar o repositório](#como-utilizar-o-repositório)
 - [Sobre o Beecrowd](#sobre-o-beecrowd)
@@ -35,9 +35,9 @@
 - [Feito Com](#feito-com)
 - [Linguagens suportadas](#linguagens-suportadas)
 - [Estrutura de Arquivos](#estrutura-de-arquivos)
-  - [Edição](#edi%C3%A7%C3%A3o)
-- [Contribuição](#contribui%C3%A7%C3%A3o)
-- [Licença](#licen%C3%A7a)
+  - [Edição](#edição)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 - [Contato](#contato)
 
 <!-- ABOUT THE PROJECT -->
