@@ -1,0 +1,3 @@
+# AD-HOC
+
+Problemas de Simulação, Datas e Ad-Hoc no geral... 
