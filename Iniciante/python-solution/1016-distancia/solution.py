@@ -1,5 +1,5 @@
 x = int(input())
 
-t = x*2
+t = x * 2
 
-print(f'{t} minutos')
+print(f"{t} minutos")

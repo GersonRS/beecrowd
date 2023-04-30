@@ -1,5 +1,6 @@
 while True:
     try:
+
         def pizza(n, d):
             resultado = []
             for i in range(d):
@@ -13,7 +14,7 @@ while True:
             if resultado:
                 return resultado[0][1]
             else:
-                return 'Pizza antes de FdI'
+                return "Pizza antes de FdI"
 
         n, d = map(int, input().split())
         print(pizza(n, d))

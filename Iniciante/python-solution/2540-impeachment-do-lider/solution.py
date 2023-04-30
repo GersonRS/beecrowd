@@ -2,7 +2,7 @@ while True:
     try:
         n = int(input())
 
-        votos = [0]*n
+        votos = [0] * n
         casos = list(map(int, input().split()))
 
         for i in range(n):
@@ -16,8 +16,8 @@ while True:
         resultado = (n * 2) / 3
 
         if impeachment >= resultado:
-            print('impeachment')
+            print("impeachment")
         else:
-            print('acusacao arquivada')
+            print("acusacao arquivada")
     except EOFError:
         break

@@ -12,7 +12,7 @@ soma = 0
 for a in matriz[l]:
     soma += a
 
-if t == 'S':
+if t == "S":
     print(soma)
 else:
-    print(soma/12)
+    print(soma / 12)

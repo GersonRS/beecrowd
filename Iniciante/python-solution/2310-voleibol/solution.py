@@ -20,7 +20,6 @@ for i in range(n):
 saque = soma_s1 / soma_s * 100
 bloqueio = soma_b1 / soma_b * 100
 ataque = soma_a1 / soma_a * 100
-print(f'Pontos de Saque: {saque:.2f} %.')
-print(f'Pontos de Bloqueio: {bloqueio:.2f} %.')
-print(f'Pontos de Ataque: {ataque:.2f} %.')
-
+print(f"Pontos de Saque: {saque:.2f} %.")
+print(f"Pontos de Bloqueio: {bloqueio:.2f} %.")
+print(f"Pontos de Ataque: {ataque:.2f} %.")

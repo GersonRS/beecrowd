@@ -7,7 +7,7 @@ while True:
         break
 
     soma = 0
-    for i in range(m, n+1):
+    for i in range(m, n + 1):
         print(i, end=" ")
         soma += i
-    print(f'Sum={soma}')
+    print(f"Sum={soma}")

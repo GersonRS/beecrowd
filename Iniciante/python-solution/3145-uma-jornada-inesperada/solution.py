@@ -1,5 +1,5 @@
-n, x = map(int, input().split(' '))
+n, x = map(int, input().split(" "))
 
-resul = x/(n+2)
+resul = x / (n + 2)
 
-print(f'{resul:.2f}')
+print(f"{resul:.2f}")

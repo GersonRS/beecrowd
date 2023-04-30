@@ -12,7 +12,7 @@ while True:
     elif x == 3:
         diesel += 1
 
-print('MUITO OBRIGADO')
-print(f'Alcool: {alcool}')
-print(f'Gasolina: {gasol}')
-print(f'Diesel: {diesel}')
+print("MUITO OBRIGADO")
+print(f"Alcool: {alcool}")
+print(f"Gasolina: {gasol}")
+print(f"Diesel: {diesel}")

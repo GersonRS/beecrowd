@@ -9,5 +9,5 @@ for i in range(1, n):
         menor = x[i]
         posi = i
 
-print(f'Menor valor: {menor}')
-print(f'Posicao: {posi}')
+print(f"Menor valor: {menor}")
+print(f"Posicao: {posi}")

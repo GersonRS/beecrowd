@@ -7,7 +7,8 @@ def raiz(n):
         n -= 1
 
     x += 3.0
-    print(f'{x:.10f}')
+    print(f"{x:.10f}")
+
 
 n = int(input())
 raiz(n)

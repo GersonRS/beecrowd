@@ -10,18 +10,18 @@ for i in range(n):
 
     total += num
 
-    if tipo == 'C':
+    if tipo == "C":
         coelho += num
-    elif tipo == 'S':
+    elif tipo == "S":
         sapo += num
-    elif tipo == 'R':
+    elif tipo == "R":
         rato += num
 
-print(f'Total: {total} cobaias')
-print(f'Total de coelhos: {coelho}')
-print(f'Total de ratos: {rato}')
-print(f'Total de sapos: {sapo}')
+print(f"Total: {total} cobaias")
+print(f"Total de coelhos: {coelho}")
+print(f"Total de ratos: {rato}")
+print(f"Total de sapos: {sapo}")
 
-print(f'Percentual de coelhos: {coelho/total*100:.2f} %')
-print(f'Percentual de ratos: {rato/total*100:.2f} %')
-print(f'Percentual de sapos: {sapo/total*100:.2f} %')
+print(f"Percentual de coelhos: {coelho/total*100:.2f} %")
+print(f"Percentual de ratos: {rato/total*100:.2f} %")
+print(f"Percentual de sapos: {sapo/total*100:.2f} %")

@@ -14,6 +14,6 @@ for i in range(1, len(notas)):
         x = i
 
 if maior == 0:
-    print('Minimum note not reached')
+    print("Minimum note not reached")
 else:
     print(alunos[x])

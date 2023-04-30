@@ -6,4 +6,4 @@ for i in range(20):
 n.reverse()
 
 for j in range(20):
-    print(f'N[{j}] = {n[j]}')
+    print(f"N[{j}] = {n[j]}")

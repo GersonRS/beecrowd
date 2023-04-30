@@ -1,6 +1,6 @@
 soma1 = soma2 = soma3 = 0
 
-for i in range(3): 
+for i in range(3):
     soma_parcial = 0
     while True:
         entrada = input().strip()

@@ -5,7 +5,7 @@ for i in range(n):
         h, m = h + 00, m + 00
 
     if o == 1:
-        ocorrencia = 'A porta abriu!'
+        ocorrencia = "A porta abriu!"
     else:
-        ocorrencia = 'A porta fechou!'
-    print(f'{h:02d}:{m:02d} - {ocorrencia}')
+        ocorrencia = "A porta fechou!"
+    print(f"{h:02d}:{m:02d} - {ocorrencia}")

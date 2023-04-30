@@ -1,6 +1,7 @@
 def exame_geral(notas, posicao):
     return notas[posicao - 1]
 
+
 while True:
     try:
         n, q = map(int, input().split())

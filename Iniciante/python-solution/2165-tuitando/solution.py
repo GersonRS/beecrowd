@@ -2,6 +2,6 @@ t = input()
 
 caracteres = len(t)
 if caracteres <= 140:
-    print('TWEET')
+    print("TWEET")
 else:
-    print('MUTE')
+    print("MUTE")

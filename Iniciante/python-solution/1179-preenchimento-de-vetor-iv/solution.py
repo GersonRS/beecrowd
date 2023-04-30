@@ -13,15 +13,15 @@ for i in range(15):
         cont_impar += 1
     if cont_impar == 5:
         for j in range(5):
-            print(f'impar[{j}] = {impar[j]}')
+            print(f"impar[{j}] = {impar[j]}")
         cont_impar = 0
     if cont_par == 5:
         for j in range(5):
-            print(f'par[{j}] = {par[j]}')
+            print(f"par[{j}] = {par[j]}")
         cont_par = 0
 
 for j in range(cont_impar):
-    print(f'impar[{j}] = {impar[j]}')
+    print(f"impar[{j}] = {impar[j]}")
 
 for j in range(cont_par):
-    print(f'par[{j}] = {par[j]}')
+    print(f"par[{j}] = {par[j]}")

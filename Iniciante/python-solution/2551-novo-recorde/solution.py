@@ -12,11 +12,9 @@ while True:
             velocidade_media = treinos[i][1] / treinos[i][0]
             if velocidade_media > recorde_atual:
                 recorde_atual = velocidade_media
-                recordes.append(i+1)
-
+                recordes.append(i + 1)
 
         for recorde in recordes:
             print(recorde)
     except EOFError:
         break
-

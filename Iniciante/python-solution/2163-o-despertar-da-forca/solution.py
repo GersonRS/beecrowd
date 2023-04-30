@@ -6,14 +6,22 @@ for i in range(terreno[0]):
         tam_terreno[i][j] = linha[j]
 
 sabre = False
-for i in range(1, terreno[0]-1):
-    for j in range(1, terreno[1]-1):
+for i in range(1, terreno[0] - 1):
+    for j in range(1, terreno[1] - 1):
         if tam_terreno[i][j] == 42:
-            if tam_terreno[i - 1][j - 1] == 7 and tam_terreno[i - 1][j] == 7 and tam_terreno[i - 1][j + 1] == 7:
+            if (
+                tam_terreno[i - 1][j - 1] == 7
+                and tam_terreno[i - 1][j] == 7
+                and tam_terreno[i - 1][j + 1] == 7
+            ):
                 if tam_terreno[i][j - 1] == 7 and tam_terreno[i][j + 1] == 7:
-                    if tam_terreno[i + 1][j - 1] == 7 and tam_terreno[i + 1][j] == 7 and tam_terreno[i + 1][j + 1] == 7:
-                        print(i+1, j+1)
+                    if (
+                        tam_terreno[i + 1][j - 1] == 7
+                        and tam_terreno[i + 1][j] == 7
+                        and tam_terreno[i + 1][j + 1] == 7
+                    ):
+                        print(i + 1, j + 1)
                         sabre = True
                         break
 if sabre == False:
-    print('0 0')
+    print("0 0")

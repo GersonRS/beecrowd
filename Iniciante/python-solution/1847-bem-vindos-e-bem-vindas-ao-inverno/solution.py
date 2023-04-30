@@ -1,21 +1,21 @@
-a, b, c = map(int, input().split(' '))
+a, b, c = map(int, input().split(" "))
 
 if a > b:
     if b <= c:
-        print(':)')
+        print(":)")
     elif (a - b) > (b - c):
-        print(':)')
+        print(":)")
     else:
-        print(':(')
+        print(":(")
 elif a < b:
     if b >= c:
-        print(':(')
+        print(":(")
     elif (a - b) < (b - c):
-        print(':(')
+        print(":(")
     else:
-        print(':)')
+        print(":)")
 else:
     if b < c:
-        print(':)')
+        print(":)")
     else:
-        print(':(')
+        print(":(")

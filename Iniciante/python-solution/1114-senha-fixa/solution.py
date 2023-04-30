@@ -1,4 +1,4 @@
-while(True):
+while True:
     try:
         senha = int(input())
         if senha == 2002:

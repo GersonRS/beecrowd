@@ -3,4 +3,4 @@ s = input()
 while len(s) > limite:
     print("Número de caracteres excedeu o limite de", limite)
     s = input()
-print('Nao se refuta ciencia com opiniao')
+print("Nao se refuta ciencia com opiniao")

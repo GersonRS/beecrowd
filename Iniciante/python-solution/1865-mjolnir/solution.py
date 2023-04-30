@@ -1,10 +1,10 @@
 n = int(input())
 
 for i in range(n):
-    nome, forca = input().split(' ')
+    nome, forca = input().split(" ")
     forca = int(forca)
 
-    if nome != 'Thor':
-        print('N')
+    if nome != "Thor":
+        print("N")
     else:
-        print('Y')
+        print("Y")

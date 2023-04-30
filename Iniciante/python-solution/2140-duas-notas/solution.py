@@ -4,8 +4,9 @@ def duas_notas(compra, pagamento):
     for i in range(len(notas)):
         for j in range(i, len(notas)):
             if notas[i] + notas[j] == troco:
-                return 'possible'
-    return 'impossible'
+                return "possible"
+    return "impossible"
+
 
 while True:
     compra, pagamento = map(int, input().split())

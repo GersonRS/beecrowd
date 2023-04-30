@@ -3,12 +3,12 @@ n = int(input())
 for i in range(n):
     x = int(input())
     if x == 0:
-        print('NULL')
+        print("NULL")
     elif x % 2 != 0 and x > 0:
-        print('ODD POSITIVE')
+        print("ODD POSITIVE")
     elif x % 2 != 0 and x < 0:
-        print('ODD NEGATIVE')
+        print("ODD NEGATIVE")
     elif x % 2 == 0 and x > 0:
-        print('EVEN POSITIVE')
+        print("EVEN POSITIVE")
     else:
-        print('EVEN NEGATIVE')
+        print("EVEN NEGATIVE")

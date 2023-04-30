@@ -1,4 +1,4 @@
-a, b = map(int, input().split(' '))
+a, b = map(int, input().split(" "))
 
 resto = a % b
 quociente = a // b

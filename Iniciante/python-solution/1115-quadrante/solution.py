@@ -1,14 +1,14 @@
 while True:
     x, y = map(int, input().split())
-    
+
     if x == 0 or y == 0:
         break
-    
+
     if x > 0 and y > 0:
-        print('primeiro')
+        print("primeiro")
     elif x > 0 and y < 0:
-        print('quarto')
+        print("quarto")
     elif x < 0 and y < 0:
-        print('terceiro')
+        print("terceiro")
     else:
-        print('segundo')
+        print("segundo")

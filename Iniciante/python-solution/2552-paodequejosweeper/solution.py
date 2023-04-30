@@ -12,6 +12,7 @@ def sweeper(matriz, i, j):
         p += 1
     return p
 
+
 while True:
     try:
         n, m = map(int, input().split())
@@ -26,4 +27,3 @@ while True:
             print()
     except EOFError:
         break
-

@@ -1,11 +1,11 @@
 while True:
     try:
         horario = {
-            (0, 90): 'Bom Dia!!',
-            (90, 180): 'Boa Tarde!!',
-            (180, 270): 'Boa Noite!!',
-            (270, 360): 'De Madrugada!!',
-            (360, 361): 'Bom Dia!!',
+            (0, 90): "Bom Dia!!",
+            (90, 180): "Boa Tarde!!",
+            (180, 270): "Boa Noite!!",
+            (270, 360): "De Madrugada!!",
+            (360, 361): "Bom Dia!!",
         }
 
         x = int(input())
@@ -15,4 +15,3 @@ while True:
 
     except EOFError:
         break
-

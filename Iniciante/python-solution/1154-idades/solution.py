@@ -6,5 +6,5 @@ while x >= 0:
     if x >= 0:
         soma += x
         cont += 1
-media = soma/cont
-print(f'{media:.2f}')
+media = soma / cont
+print(f"{media:.2f}")

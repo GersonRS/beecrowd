@@ -1,4 +1,4 @@
-x, q = map(int, input().split(' '))
+x, q = map(int, input().split(" "))
 
 valores = {
     1: 4.0,
@@ -8,4 +8,4 @@ valores = {
     5: 1.5,
 }
 
-print(f'Total: R$ {q*valores.get(x, 0.0):.2f}')
+print(f"Total: R$ {q*valores.get(x, 0.0):.2f}")

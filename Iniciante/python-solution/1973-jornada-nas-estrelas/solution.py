@@ -8,7 +8,7 @@ while True:
         if valores[i] > 0:
             valores[i] -= 1
         break
-    elif i == n-1 and valores[i] % 2 == 1:
+    elif i == n - 1 and valores[i] % 2 == 1:
         estrelas[i] = 1
         if valores[i] > 0:
             valores[i] -= 1

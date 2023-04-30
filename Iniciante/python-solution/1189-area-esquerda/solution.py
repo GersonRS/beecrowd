@@ -19,9 +19,9 @@ for i in range(1, 11):
 
 soma = 0
 media = 0
-if operacao == 'S':
+if operacao == "S":
     soma = sum(verde)
-    print(f'{soma:.1f}')
-elif operacao == 'M':
-    media = sum(verde)/len(verde)
-    print(f'{media:.1f}')
+    print(f"{soma:.1f}")
+elif operacao == "M":
+    media = sum(verde) / len(verde)
+    print(f"{media:.1f}")

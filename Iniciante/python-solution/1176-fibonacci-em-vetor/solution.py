@@ -7,4 +7,4 @@ for i in range(2, 61):
 
 for i in range(t):
     n = int(input())
-    print(f'Fib({n}) = {vet[n]}')
+    print(f"Fib({n}) = {vet[n]}")

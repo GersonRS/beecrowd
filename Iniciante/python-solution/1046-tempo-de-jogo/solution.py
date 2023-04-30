@@ -3,4 +3,4 @@ if i < f:
     soma = f - i
 else:
     soma = (24 - i) + f
-print(f'O JOGO DUROU {soma} HORA(S)')
+print(f"O JOGO DUROU {soma} HORA(S)")

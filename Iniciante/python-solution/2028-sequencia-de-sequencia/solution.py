@@ -10,12 +10,12 @@ while True:
             seq += [i] * i
             total += i
         if total + 1 == 1:
-            print(f'Caso {caso}: {total + 1} numero')
-            print(' '.join(map(str, seq)))
+            print(f"Caso {caso}: {total + 1} numero")
+            print(" ".join(map(str, seq)))
             print()
         else:
-            print(f'Caso {caso}: {total + 1} numeros')
-            print(' '.join(map(str, seq)))
+            print(f"Caso {caso}: {total + 1} numeros")
+            print(" ".join(map(str, seq)))
             print()
 
         caso += 1

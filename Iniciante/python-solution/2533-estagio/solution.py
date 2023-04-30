@@ -10,6 +10,6 @@ while True:
             nota += m1 * m2
 
             ira = nota / (carga * 100)
-        print(f'{ira:.4f}')
+        print(f"{ira:.4f}")
     except EOFError:
         break

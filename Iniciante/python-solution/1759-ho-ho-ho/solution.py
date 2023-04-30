@@ -1,1 +1,1 @@
-print("Ho "*(int(input("")) - 1) + "Ho!")
+print("Ho " * (int(input("")) - 1) + "Ho!")

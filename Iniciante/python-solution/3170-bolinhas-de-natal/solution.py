@@ -7,6 +7,6 @@ if g % 2 != 0:
 resto = (g // 2) - b
 
 if resto <= 0:
-    print('Amelia tem todas bolinhas!')
+    print("Amelia tem todas bolinhas!")
 else:
-    print(f'Faltam {resto} bolinha(s)')
+    print(f"Faltam {resto} bolinha(s)")

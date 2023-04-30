@@ -12,9 +12,9 @@ elif x <= 2000.00:
 else:
     percentual = 4
 
-salario = (x*percentual/100)+x
-reajuste = salario-x
+salario = (x * percentual / 100) + x
+reajuste = salario - x
 
-print(f'Novo salario: {salario:.2f}')
-print(f'Reajuste ganho: {reajuste:.2f}')
-print(f'Em percentual: {percentual} %')
+print(f"Novo salario: {salario:.2f}")
+print(f"Reajuste ganho: {reajuste:.2f}")
+print(f"Em percentual: {percentual} %")

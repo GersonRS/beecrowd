@@ -15,10 +15,8 @@ for i in range(t):
     valor_golpe_guarte = ((ataque2 + defesa2) / 2) + bonus_guarte
 
     if valor_golpe_dabriel > valor_golpe_guarte:
-        print('Dabriel')
+        print("Dabriel")
     elif valor_golpe_guarte > valor_golpe_dabriel:
-        print('Guarte')
+        print("Guarte")
     else:
-        print('Empate')
-
-
+        print("Empate")

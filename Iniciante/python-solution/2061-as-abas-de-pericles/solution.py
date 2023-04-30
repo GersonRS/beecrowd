@@ -3,7 +3,7 @@ def abas_restante(abas, operacao):
     clicou = 0
     for i in range(operacao):
         acao = input()
-        if acao == 'fechou':
+        if acao == "fechou":
             fechou += 1
         else:
             clicou += 1

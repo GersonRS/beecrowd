@@ -1,5 +1,6 @@
 while True:
     try:
+
         def jogatina(n, i):
             gameplay_cs = 0
             for entradas in range(n):

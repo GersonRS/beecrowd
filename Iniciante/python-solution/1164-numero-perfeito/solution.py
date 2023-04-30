@@ -7,6 +7,6 @@ for i in range(n):
         if x % j == 0:
             soma += j
     if soma == x:
-        print(f'{x} eh perfeito')
+        print(f"{x} eh perfeito")
     else:
-        print(f'{x} nao eh perfeito')
+        print(f"{x} nao eh perfeito")

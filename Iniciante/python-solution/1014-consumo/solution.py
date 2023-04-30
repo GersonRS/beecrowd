@@ -1,6 +1,6 @@
 X = int(input())
 Y = float(input())
 
-valor = X/Y
+valor = X / Y
 
-print(f'{valor:.3f} km/l')
+print(f"{valor:.3f} km/l")

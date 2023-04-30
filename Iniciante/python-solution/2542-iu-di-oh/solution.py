@@ -17,10 +17,10 @@ while True:
         atributo = int(input())
 
         if marcos[CM - 1][atributo - 1] > leo[CL - 1][atributo - 1]:
-            print('Marcos')
+            print("Marcos")
         elif leo[CL - 1][atributo - 1] > marcos[CM - 1][atributo - 1]:
-            print('Leonardo')
+            print("Leonardo")
         else:
-            print('Empate')
+            print("Empate")
     except EOFError:
         break

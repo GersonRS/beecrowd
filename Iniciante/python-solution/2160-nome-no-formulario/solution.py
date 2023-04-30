@@ -2,9 +2,11 @@ def formulario(l):
     tamanho = len(l)
 
     if tamanho <= 80:
-        return'YES'
+        return "YES"
     else:
-        return 'NO'
+        return "NO"
+
+
 l = input()
 x = formulario(l)
 print(x)

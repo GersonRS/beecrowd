@@ -9,11 +9,11 @@ for i in range(12):
 
 soma = 0
 for i in range(12):
-    for j in range(i+1, 12):
+    for j in range(i + 1, 12):
         soma += matriz[i][j]
 
-if operacao == 'S':
-    print(f'{soma:.1f}')
-elif operacao == 'M':
+if operacao == "S":
+    print(f"{soma:.1f}")
+elif operacao == "M":
     media = soma / 66
-    print(f'{media:.1f}')
+    print(f"{media:.1f}")

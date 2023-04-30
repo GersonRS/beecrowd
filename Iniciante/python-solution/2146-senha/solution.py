@@ -6,4 +6,6 @@ def senha():
             print(senha)
         except EOFError:
             break
+
+
 senha()

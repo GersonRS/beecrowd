@@ -13,7 +13,7 @@ for i in range(5):
     if x < 0:
         neg += 1
 
-print(f'{par} valor(es) par(es)')
-print(f'{impar} valor(es) impar(es)')
-print(f'{pos} valor(es) positivo(s)')
-print(f'{neg} valor(es) negativo(s)')
+print(f"{par} valor(es) par(es)")
+print(f"{impar} valor(es) impar(es)")
+print(f"{pos} valor(es) positivo(s)")
+print(f"{neg} valor(es) negativo(s)")

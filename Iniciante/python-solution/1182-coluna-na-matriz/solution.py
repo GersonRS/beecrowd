@@ -12,7 +12,7 @@ soma = 0
 for a in range(12):
     soma += matriz[a][coluna]
 
-if t == 'S':
-    print(f'{soma:.1f}')
+if t == "S":
+    print(f"{soma:.1f}")
 else:
-    print(f'{soma/12:.1f}')
+    print(f"{soma/12:.1f}")

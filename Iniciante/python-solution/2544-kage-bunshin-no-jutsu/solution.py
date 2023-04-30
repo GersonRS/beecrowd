@@ -2,6 +2,7 @@ import math
 
 while True:
     try:
+
         def jutsu_clones(n):
             clones = int(math.log(n, 2))
             return clones
@@ -11,4 +12,3 @@ while True:
 
     except EOFError:
         break
-

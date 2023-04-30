@@ -17,8 +17,8 @@ while True:
         raio = r1 + r2
 
         if distancia > raio:
-            print('N')
+            print("N")
         else:
-            print('Y')
+            print("Y")
     except EOFError:
         break

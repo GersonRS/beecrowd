@@ -14,8 +14,10 @@ while True:
                 elif cidade[i][j] == 2:
                     linha_analogimon = i
                     coluna_analogimon = j
-        
-        distancia_minima = abs(linha_eu - linha_analogimon) + abs(coluna_eu - coluna_analogimon)
+
+        distancia_minima = abs(linha_eu - linha_analogimon) + abs(
+            coluna_eu - coluna_analogimon
+        )
         print(distancia_minima)
 
     except EOFError:

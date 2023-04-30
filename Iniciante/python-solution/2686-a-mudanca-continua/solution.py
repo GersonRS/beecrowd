@@ -16,7 +16,7 @@ while True:
             print("De Madrugada!!")
 
         grau_em_minutos = grau * 4
-        horas = int(grau_em_minutos // 60)+6
+        horas = int(grau_em_minutos // 60) + 6
         minutos = int(grau_em_minutos % 60)
         segundos = round((grau_em_minutos - int(grau_em_minutos)) * 60)
         if horas >= 24:

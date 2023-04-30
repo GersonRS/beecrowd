@@ -14,4 +14,4 @@ for i in range(t):
             break
 
     if anos <= 100:
-        print(f'{anos} anos.')
+        print(f"{anos} anos.")

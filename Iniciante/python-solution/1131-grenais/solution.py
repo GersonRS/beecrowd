@@ -4,7 +4,7 @@ gremio = 0
 empate = 0
 
 while True:
-    i, g = map(int, input().split(' '))
+    i, g = map(int, input().split(" "))
     soma += 1
     if i == g:
         empate += 1
@@ -18,14 +18,14 @@ while True:
     if x != 1:
         break
 
-print(f'{soma} grenais')
-print(f'Inter:{inter}')
-print(f'Gremio:{gremio}')
-print(f'Empates:{empate}')
+print(f"{soma} grenais")
+print(f"Inter:{inter}")
+print(f"Gremio:{gremio}")
+print(f"Empates:{empate}")
 
 if inter > gremio:
-    print('Inter venceu mais')
+    print("Inter venceu mais")
 elif gremio > inter:
-    print('Gremio venceu mais')
+    print("Gremio venceu mais")
 else:
-    print('Nao houve vencedor')
+    print("Nao houve vencedor")

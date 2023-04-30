@@ -8,7 +8,7 @@ while True:
             if i == len(entrada) - 1:
                 print(letras[entrada[i]])
             else:
-                print(letras[entrada[i]], end='')
+                print(letras[entrada[i]], end="")
 
     except EOFError:
         break

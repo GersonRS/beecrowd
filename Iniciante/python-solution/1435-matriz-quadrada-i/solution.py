@@ -20,8 +20,8 @@ while True:
             else:
                 dist = linha
 
-            print(f'{dist+1:3}', end='')
+            print(f"{dist+1:3}", end="")
             if j != n - 1:
-                print(end=' ')
+                print(end=" ")
         print()
     print()

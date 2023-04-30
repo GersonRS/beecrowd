@@ -3,24 +3,24 @@ p2 = input()
 p3 = input()
 
 dic = {
-    'vertebrado': {
-        'ave': {
-            'carnivoro': 'aguia',
-            'onivoro': 'pomba',
+    "vertebrado": {
+        "ave": {
+            "carnivoro": "aguia",
+            "onivoro": "pomba",
         },
-        'mamifero': {
-            'onivoro': 'homem',
-            'herbivoro': 'vaca',
+        "mamifero": {
+            "onivoro": "homem",
+            "herbivoro": "vaca",
         },
     },
-    'invertebrado': {
-        'inseto': {
-            'hematofago': 'pulga',
-            'herbivoro': 'lagarta',
+    "invertebrado": {
+        "inseto": {
+            "hematofago": "pulga",
+            "herbivoro": "lagarta",
         },
-        'anelideo': {
-            'hematofago': 'sanguessuga',
-            'onivoro': 'minhoca',
+        "anelideo": {
+            "hematofago": "sanguessuga",
+            "onivoro": "minhoca",
         },
     },
 }

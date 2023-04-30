@@ -3,10 +3,10 @@ while True:
     for i in range(2):
         x = float(input())
         while x > 10 or x < 0:
-            print('nota invalida')
+            print("nota invalida")
             x = float(input())
         soma += x
-    print(f'media = {soma/2:.2f}')
+    print(f"media = {soma/2:.2f}")
 
     while True:
         print("novo calculo (1-sim 2-nao)")

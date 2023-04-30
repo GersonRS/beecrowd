@@ -3,7 +3,7 @@ while True:
         t = int(input())
         expressao = []
         for i in range(t):
-            entrada = input().split('=')
+            entrada = input().split("=")
             expressao.append(entrada[0].split() + [entrada[1]])
 
         respostas = []
@@ -15,16 +15,16 @@ while True:
         for compara in respostas:
             nome, escolha, resposta = compara
 
-            x = int(expressao[escolha-1][0])
-            y = int(expressao[escolha-1][1])
-            z = int(expressao[escolha-1][2])
-            if resposta == '+':
+            x = int(expressao[escolha - 1][0])
+            y = int(expressao[escolha - 1][1])
+            z = int(expressao[escolha - 1][2])
+            if resposta == "+":
                 if x + y != z:
                     nao_passaram.append(nome)
-            elif resposta == '-':
+            elif resposta == "-":
                 if x - y != z:
                     nao_passaram.append(nome)
-            elif resposta == '*':
+            elif resposta == "*":
                 if x * y != z:
                     nao_passaram.append(nome)
             else:
@@ -32,12 +32,12 @@ while True:
                     nao_passaram.append(nome)
 
         if len(nao_passaram) == 0:
-            print('You Shall All Pass!')
+            print("You Shall All Pass!")
         elif len(nao_passaram) == len(expressao):
-            print('None Shall Pass!')
+            print("None Shall Pass!")
         else:
             nao_passaram.sort()
-            print(' '.join(nao_passaram))
+            print(" ".join(nao_passaram))
 
     except EOFError:
         break

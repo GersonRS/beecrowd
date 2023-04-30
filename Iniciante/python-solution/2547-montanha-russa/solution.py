@@ -1,14 +1,15 @@
 while True:
     try:
+
         def montanha_russa(n, a_minima, a_maxima):
-            alturas = [0]*n
+            alturas = [0] * n
             for i in range(len(alturas)):
                 x = int(input())
                 alturas[i] = x
 
             visitantes = 0
             for altura in alturas:
-                if altura in range(a_minima, a_maxima+1):
+                if altura in range(a_minima, a_maxima + 1):
                     visitantes += 1
 
             return visitantes
@@ -18,4 +19,3 @@ while True:
 
     except EOFError:
         break
-
