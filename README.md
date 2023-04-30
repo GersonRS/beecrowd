@@ -55,7 +55,7 @@ Para utilizar uma solução, basta baixar o arquivo correspondente e executá-lo
 
 Para a linguagem Python basta entrar no diretorio do problema e executar o seguinte comando:
 ```bash
-python3 solution.py < inputs.txt | tee outputs.txt
+python3 solution.py < input.txt | tee output.txt
 ```
 
 As soluções aqui apresentadas são apenas exemplos e não representam necessariamente a melhor ou a única forma de resolver cada problema. Além disso, as soluções foram desenvolvidas para atender aos requisitos específicos de cada problema e podem precisar de adaptações para serem utilizadas em outros contextos.
