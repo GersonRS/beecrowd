@@ -53,6 +53,11 @@ As soluções estão organizadas em pastas, cada uma com o nome do problema corr
 
 Para utilizar uma solução, basta baixar o arquivo correspondente e executá-lo em um ambiente de desenvolvimento ou em um terminal utilizando o comando correspondente da linguagem utilizada.
 
+Para a linguagem Python basta entrar no diretorio do problema e executar o seguinte comando:
+```bash
+python3 solution.py < input.txt | tee output.txt
+```
+
 As soluções aqui apresentadas são apenas exemplos e não representam necessariamente a melhor ou a única forma de resolver cada problema. Além disso, as soluções foram desenvolvidas para atender aos requisitos específicos de cada problema e podem precisar de adaptações para serem utilizadas em outros contextos.
 
 # Sobre o Beecrowd
