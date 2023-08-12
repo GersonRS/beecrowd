@@ -1,7 +1,4 @@
-A, B, C = input().split()
-A = int(A)
-B = int(B)
-C = int(C)
+A, B, C = map(int, input().split())
 
 maiorAB = (A + B + abs(A - B)) / 2
 maiorC = (maiorAB + C + abs(maiorAB - C)) / 2
