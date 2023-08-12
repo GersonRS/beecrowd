@@ -1,7 +1,4 @@
-a, b, c = input().split(" ")
-a = float(a)
-b = float(b)
-c = float(c)
+a, b, c = map(float, input().split(" "))
 if a == 0:
     print("Impossivel calcular")
 else:
@@ -10,7 +7,6 @@ else:
         print("Impossivel calcular")
     else:
         import math
-
         x1 = (-b + math.sqrt(delta)) / (2 * a)
         x2 = (-b - math.sqrt(delta)) / (2 * a)
         print(f"R1 = {x1:.5f}")
