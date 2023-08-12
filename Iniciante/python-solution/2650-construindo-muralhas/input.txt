@@ -1,0 +1,7 @@
+6 30
+Titan Pequeno 5
+Titan Muito Grande 100
+Titan Razoavel 30
+Titan Muito Razoavel 31
+Titan Medio 29
+Gigante 50

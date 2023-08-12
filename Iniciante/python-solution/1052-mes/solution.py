@@ -1,5 +1,3 @@
-data = int(input())
-
 dic = {
     1: "January",
     2: "February",
@@ -15,4 +13,4 @@ dic = {
     12: "December",
 }
 
-print(dic.get(data, "Mês inválido."))
+print(dic.get(int(input()), "Mês inválido."))
